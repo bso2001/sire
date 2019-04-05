@@ -1,8 +1,8 @@
-####Sire -- A Test Data Generator for PHP (version 0.25)####
+#### Sire -- A Test Data Generator for PHP (version 0.25) ####
 
 Sire is a test data generator written in PHP.  It can be used for non-PHP applications.
 
-#####Features#####
+##### Features #####
 
 - PHP associative arrays define generation criteria (on a per-field basis)
 - Generate object definitions or SQL statements
@@ -14,7 +14,7 @@ Sire is a test data generator written in PHP.  It can be used for non-PHP applic
 - Random selection from a given domain
 - Library of sample images (banners, logos, people)
 
-#####Sire Language#####
+##### Sire Language #####
 
 Data generation is controlled by a nested array of field definitions (_a la_ Koi).  If a field def contains the key 'generator' then Sire can create test data for the field.
 
@@ -155,7 +155,7 @@ Lastly, the **randomImage** function returns a local pathname to a random image 
 It is assumed that the application code will do something appropriate with the image (like install it in the right place).
 
 
-#####To Do#####
+##### To Do #####
 
 * Koi integration (Sire field defs are isomorphic to Koi's)
 * Smart address and/or phone number generation
