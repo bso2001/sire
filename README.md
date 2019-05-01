@@ -157,7 +157,6 @@ It is assumed that the application code will do something appropriate with the i
 
 ##### To Do #####
 
-* Koi integration (Sire field defs are isomorphic to Koi's)
 * Smart address and/or phone number generation
 * Lat/lng generation
 * More images
