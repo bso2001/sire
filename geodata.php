@@ -56,7 +56,7 @@ class geodata
 		'Oxford', 'Pine Grove', 'Pleasant Grove', 'Pleasant Hill', 'Pleasant Valley', 'Riverside', 'Salem', 'Shady Grove', 'Shiloh',
 		'Springfield', 'Troy', 'Union', 'Washington', 'Winchester'
 	];
-	private static $city1 = [ 'Center', 'Fair', 'Forest', 'George', 'Glen', 'Green', 'Lake', 'Mountain', 'Oak', 'Pine', 'Pleasant', 'River', 'Spring', 'Sunny' ];
+	private static $city1 = [ 'Center', 'Fair', 'Forest', 'Glen', 'Green', 'Lake', 'Mountain', 'North', 'Oak', 'Pine', 'Pleasant', 'River', 'Spring', 'South', 'Sunny' ];
 	private static $city2 = [ 'brook', 'dale', 'field', ' Grove', ' Hills', 'land', 'park', 'town', ' Valley', 'view', 'wood' ];
 	private static $commonCityOdds = 40;
 

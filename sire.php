@@ -14,7 +14,7 @@ class engine
 	private $helpers = null;
 	public $savedData = [];
 
-	public function initialize($f, $k = null)
+	public function initialize( $f, $k = null )
 	{
 		$this->fields = $f;
 		$this->keys   = $k;
@@ -25,34 +25,37 @@ class engine
 		$this->helpers[] = new \sire\text;
 	}
 
-	public function fill($obj)
+	public function fill( $obj )
 	{
-		if ($this->fields)
+		if ( $this->fields )
 		{
-			foreach ($this->fields as &$f)
-				$obj->$f['fname'] = $this->genval($f);
+			foreach ( $this->fields as &$f )
+			{
+				$fname = $f['fname'];
+				$obj->$fname = $this->genval( $f );
+			}
 		}
 	}
 
-	public function insert($tableName, $key = null)
+	public function insert( $tableName, $key = null )
 	{
 		$r = '';
 
-		if ($tableName && $this->fields)
+		if ( $tableName && $this->fields )
 			$r = 'INSERT INTO `' . $tableName . '` ' . $this->cols($key) . ' VALUES ' . $this->vals($key) . ";\n";
 
 		return $r;
 	}
 
-	private function cols($key)
+	private function cols( $key )
 	{
 		$r = '(';
 
-		if ($this->fields)
+		if ( $this->fields )
 		{
-			foreach ($this->fields as $f)
+			foreach ( $this->fields as $f )
 			{
-				if (isset($f['key']) && $f['key'] === true && !$key)
+				if ( isset($f['key']) && $f['key'] === true && !$key )
 					continue;
 
 				$r .= (($r != '(') ? ', ' : '') . $f['fname'];

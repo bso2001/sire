@@ -32,13 +32,13 @@ class person extends geodata
 
 	private static $lastNames = 
 	[
-		'Adams', 'Allen', 'Anderson', 'Bailey', 'Baker', 'Barnes', 'Bateman', 'Bell', 'Bennett', 'Brooks', 'Brown', 'Butler', 'Campbell',
-		'Carter', 'Clark', 'Collins', 'Cook', 'Cooper', 'Cox', 'Cruz', 'Davis', 'Diaz', 'Edwards', 'Evans', 'Fisher', 'Flores', 'Foil',
-		'Foster', 'Garcia', 'Gonzalez', 'Gray', 'Green', 'Gutierrez', 'Hall', 'Hansen', 'Harris', 'Hernandez', 'Hill', 'Howard', 'Hughes',
-		'Jackson', 'James', 'Jenkins', 'Jones', 'Kelly', 'King', 'Lee', 'Lewis', 'Long', 'Lopez', 'Magee', 'Martin', 'Martinez', 'Miller',
-		'Mitchell', 'Moore', 'Morales', 'Morgan', 'Morris', 'Murphy', 'Myers', 'Nelson', 'Ortiz', 'Parker', 'Perez', 'Perry', 'Peterson',
-		'Phillips', 'Powell', 'Price', 'Ramirez', 'Reed', 'Richardson', 'Rivera', 'Roberts', 'Robinson', 'Rodriguez', 'Rogers', 'Ross',
-		'Russell', 'Sanchez', 'Sanders', 'Scott', 'Smith', 'Stewart', 'Sullivan', 'Taylor', 'Thomas', 'Thompson', 'Torres', 'Turner',
+		'Adams', 'Allen', 'Anderson', 'Angstrom', 'Bailey', 'Baker', 'Barnes', 'Bateman', 'Bell', 'Bennett', 'Brooks', 'Brown', 'Butler',
+		'Campbell', 'Carter', 'Clark', 'Collins', 'Cook', 'Cooper', 'Cox', 'Cruz', 'Davis', 'Diaz', 'Edwards', 'Evans', 'Fisher', 'Flores',
+		'Foil', 'Foster', 'Garcia', 'Gonzalez', 'Gray', 'Green', 'Gutierrez', 'Hall', 'Hansen', 'Harris', 'Hernandez', 'Hill', 'Howard',
+		'Hughes', 'Jackson', 'James', 'Jenkins', 'Jones', 'Kelly', 'King', 'Lee', 'Lewis', 'Long', 'Lopez', 'Magee', 'Martin', 'Martinez',
+		'Miller', 'Mitchell', 'Moore', 'Morales', 'Morgan', 'Morris', 'Murphy', 'Myers', 'Nelson', 'Ortiz', 'Parker', 'Perez', 'Perry',
+		'Peterson', 'Phillips', 'Powell', 'Price', 'Ramirez', 'Reed', 'Richardson', 'Rivera', 'Roberts', 'Robinson', 'Rodriguez', 'Rogers',
+		'Ross', 'Russell', 'Sanchez', 'Sanders', 'Scott', 'Smith', 'Stewart', 'Sullivan', 'Taylor', 'Thomas', 'Thompson', 'Torres', 'Turner',
 		'Walker', 'Ward', 'Watson', 'White', 'Williams', 'Wilson', 'Wood', 'Wright', 'Young'
 	];
 

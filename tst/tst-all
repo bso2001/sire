@@ -1,9 +1,0 @@
-#!/bin/sh
-
-for f in tst-*.php
-do
-	echo
-	echo " ========================= $f ========================= "
-	echo
-	php $f
-done
