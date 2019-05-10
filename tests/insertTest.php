@@ -7,7 +7,6 @@ use PHPUnit\Framework\TestCase;
 
 final class insertTest extends TestCase
 {
-
         public function testGeneration()
         {
 		global $_testFields_;

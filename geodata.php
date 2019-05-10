@@ -49,16 +49,23 @@ class geodata
 
 	private static $commonCities =
 	[
-		'Arlington', 'Ashland', 'Auburn', 'Bethel', 'Bristol', 'Burlington', 'Cedar Grove', 'Centerville', 'Clayton', 'Clinton',
+		'Arlington', 'Ashland', 'Auburn', 'Aurora', 'Bethel', 'Bristol', 'Burlington', 'Cedar Grove', 'Centerville', 'Clayton', 'Clinton',
 		'Concord', 'Dayton', 'Dover', 'Fairfield', 'Fairview', 'Forest Hills', 'Franklin', 'Georgetown', 'Glendale', 'Greenville',
-		'Greenwood', 'Highland Park', 'Hope', 'Hudson', 'Jackson', 'Kingston', 'Lakeview', 'Lakewood', 'Lexington', 'Madison',
+		'Greenwood', 'Highland Park', 'Hope', 'Hudson', 'Jackson', 'Kingston', 'Lakeview', 'Lakewood', 'Lexington', 'Lincoln', 'Madison',
 		'Manchester', 'Milford', 'Milton', 'Monmouth', 'Mount Pleasant', 'Mount Vernon', 'Newport', 'Oak Grove', 'Oak Hill', 'Oakland',
 		'Oxford', 'Pine Grove', 'Pleasant Grove', 'Pleasant Hill', 'Pleasant Valley', 'Riverside', 'Salem', 'Shady Grove', 'Shiloh',
-		'Springfield', 'Troy', 'Union', 'Washington', 'Winchester'
+		'Springfield', 'Troy', 'Union', 'Victoria', 'Washington', 'Willoughby', 'Winchester'
 	];
-	private static $city1 = [ 'Center', 'Fair', 'Forest', 'Glen', 'Green', 'Lake', 'Mountain', 'North', 'Oak', 'Pine', 'Pleasant', 'River', 'Spring', 'South', 'Sunny' ];
-	private static $city2 = [ 'brook', 'dale', 'field', ' Grove', ' Hills', 'land', 'park', 'town', ' Valley', 'view', 'wood' ];
-	private static $commonCityOdds = 40;
+	private static $city1 =
+	[
+		'Center', 'East', 'Fair', 'Forest', 'Glen', 'Green', 'Kings', 'Lake', 'Mountain', 'North',
+		'Oak', 'Pine', 'Pleasant', 'River', 'Rock', 'Spring', 'South', 'Sunny', 'Warren', 'West'
+	];
+	private static $city2 =
+	[
+		' Bay', 'brook', 'dale', 'field', ' Grove', ' Hills', 'land', 'park', ' Port', 'town', ' Trail', ' Valley', 'view', 'ville', 'wood'
+	];
+	private static $commonCityOdds = 50;
 
 
 	public static function address()
