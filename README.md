@@ -10,7 +10,7 @@ Sire is a test data generator written in PHP.  It can be used for non-PHP applic
 - "Back references" (eg, make this value dependent on another value previously generated)
 - Date generation, including relative calculations (such as, offset by days or hours)
 - Lorem Ipsum generation
-- Random string generation (with optional prefix and/or suffix
+- Random string generation (with optional prefix and/or suffix)
 - Random selection from a given domain
 - Library of sample images (banners, logos, people)
 
